@@ -7,7 +7,7 @@ function App() {
   const [error, setError] = useState("");
   const [selectedFilters, setSelectedFilters] = useState([]);
 
-  const backendUrl = "https://your-backend-deployment.com/bfhl"; // Change if deployed
+  const backendUrl = "https://bajaj-backend-qgwt.onrender.com/bfhl"; // Change if deployed
 
   // Handle JSON Input Change
   const handleInputChange = (e) => {
