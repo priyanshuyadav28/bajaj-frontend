@@ -7,7 +7,7 @@ function App() {
   const [error, setError] = useState("");
   const [selectedFilters, setSelectedFilters] = useState([]);
 
-  const backendUrl = "http://localhost:3000/bfhl"; // Change if deployed
+  const backendUrl = "https://dulcet-daifuku-386db9.netlify.app/"; // Change if deployed
 
   // Handle JSON Input Change
   const handleInputChange = (e) => {
